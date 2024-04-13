@@ -20,11 +20,11 @@ async function searchForActiveLink(setLink: any) {
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
-  const [link, setLink] = useState(false);
+  const [link, setLink] = useState("");
 
   const handleButtonClick = async () => {
     setIsLoading(true);
-    setLink(false);
+    setLink("");
     await searchForActiveLink(setLink);
     setIsLoading(false);
   };

@@ -21,7 +21,7 @@ export default async function search(
       } else {
         console.log(`URL ${url} returned status ${response.status}`);
       }
-    } catch (error) {
+    } catch (error: any) {
       console.log(`catch: URL ${url} failed to fetch:`, error.message);
     }
   }

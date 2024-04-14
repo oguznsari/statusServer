@@ -1,7 +1,7 @@
 import axios from "axios";
 import { NextApiRequest, NextApiResponse } from "next";
 
-const startIndex = 1187; // latest active index
+const startIndex = 1190; // latest active index
 const loopLimit = 50;
 const requestTimeout = 4000; // 4 seconds in milliseconds
 

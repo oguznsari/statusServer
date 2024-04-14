@@ -47,7 +47,7 @@ export default function Home() {
             <span className="text-2xl mb-2">🥳</span>
             <Button variant={"destructive"}>
               <Link href={link} passHref target="_blank">
-                {link}
+                Click to Navigate ⚽️
               </Link>
             </Button>
           </div>
